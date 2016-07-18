@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face{font-family:"DIN";
+src:url("fonts/DIN/DINNextLTW04-Regular.eot");
+src:url("fonts/DIN/DINNextLTW04-Regular.eot#iefix") format("embedded-opentype"),url("fonts/DIN/DINNextLTW04-Regular.woff") format("woff"); font-weight:400; font-style:normal}
+
+@font-face{font-family:"DIN";
+src:url("fonts/DIN/DINNextLTW04-Italic.eot");
+src:url("fonts/DIN/DINNextLTW04-Italic.eot#iefix") format("embedded-opentype"),url("fonts/DIN/DINNextLTW04-Italic.woff") format("woff"),url("fonts/DIN/DINNextLTW04-Italic.ttf") format("truetype");font-weight:400;font-style:italic}
+
+@font-face{font-family:"DIN";
+src:url("fonts/DIN/DINNextLTW04-Bold.eot");
+src:url("fonts/DIN/DINNextLTW04-Bold.eot#iefix") format("embedded-opentype"),url("fonts/DIN/DINNextLTW04-Bold.woff") format("woff"),url("fonts/DIN/DINNextLTW04-Bold.ttf") format("truetype");font-weight:700;font-style:normal}
+
+@font-face{font-family:"DIN";
+src:url("fonts/DIN/DINNextLTW04-Light.eot");
+src:url("fonts/DIN/DINNextLTW04-Light.eot#iefix") format("embedded-opentype"),url("fonts/DIN/DINNextLTW04-Light.woff") format("woff"),url("fonts/DIN/DINNextLTW04-Light.ttf") format("truetype");font-weight:300;font-style:normal}
+
+@font-face{font-family:"Blender";
+src:url("fonts/blenderpro/blenderpro-medium-webfont.eot");
+src:url("fonts/blenderpro/blenderpro-medium-webfont.eot#iefix") format("embedded-opentype"),url("fonts/blenderpro/blenderpro-medium-webfont.woff") format("woff"),url("fonts/blenderpro/blenderpro-medium-webfont.ttf") format("truetype");font-weight:400;font-style:normal}
+
+@font-face{font-family:"Blender";
+src:url("fonts/blenderpro/blenderpro-bold-webfont.eot");
+src:url("fonts/blenderpro/blenderpro-bold-webfont.eot#iefix") format("embedded-opentype"),url("fonts/blenderpro/blenderpro-bold-webfont.woff") format("woff"),url("fonts/blenderpro/blenderpro-bold-webfont.ttf") format("truetype");font-weight:700;font-style:normal}
+
+@font-face{font-family:"Blender";
+src:url("fonts/blenderpro/blenderpro-heavy-webfont.eot");
+src:url("fonts/blenderpro/blenderpro-heavy-webfont.eot#iefix") format("embedded-opentype"),url("fonts/blenderpro/blenderpro-heavy-webfont.woff") format("woff"),url("fonts/blenderpro/blenderpro-heavy-webfont.ttf") format("truetype");font-weight:800;font-style:normal}
