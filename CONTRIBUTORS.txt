@@ -1,10 +1,12 @@
 # People who have agreed to one of the CLAs and can contribute patches.
 # The AUTHORS file lists the copyright holders; this file
-# lists people.  For example, IT Strategy Group LLC. employees are listed here
-# but not in AUTHORS, because IT Strategy Group LLC. holds the copyright.
+# lists people.  For example, TIPmoney LLC. employees are listed here
+# but not in AUTHORS, because TIPmoney LLC. holds the copyright.
 #
 #
 # Names should be added to this file as:
 #     Name <email address>
 
-James Meirowsky <james.meirowsky@itsginfo.com>
+James Meirowsky <james@theinvestorspodcast.com>
+Stig Brodersen <stig@theinvestorspodcast.com>
+Preston Pysh <preston@theinvestorspodcast.com>
