@@ -1,4 +1,4 @@
-<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="/bower_components/polymer/polymer-element.html">
 
 <dom-module id="my-license">
   <template>
@@ -58,14 +58,14 @@
      */
     class MyLicense extends Polymer.Element {
       static get is() { return 'my-license'; }
-      // static get properties() {
-      //   return {
-      //     prop1: {
-      //       type: String,
-      //       value: 'my-dog'
-      //     }
-      //   };
-      // }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'my-dog'
+          }
+        };
+      }
     }
     window.customElements.define(MyLicense.is, MyLicense);
   </script>
