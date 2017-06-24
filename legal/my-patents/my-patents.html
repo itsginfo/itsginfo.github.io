@@ -1,0 +1,69 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<dom-module id="my-patents">
+  <template>
+    <style>
+       :host {
+        display: block;
+      }
+    </style>
+
+    <div class="doc-content-cont">
+      <div class="doc-title-huge txt-c">Patents</div>
+      <div class="doc-txt-medium">
+        <p>Additional IP Rights Grant (Patents)</p>
+
+          <p>"This implementation" means the copyrightable works distributed by
+          TIPmoney LLC as part of the TIPmoney project.</p>
+
+          <p>TIPmoney LLC. hereby DENY to You a perpetual, worldwide, non-exclusive,
+          no-charge, royalty-free, irrevocable (except as stated in this section)
+          patent license to make, have made, use, offer to sell, sell, import,
+          transfer and otherwise run, modify and propagate the contents of this
+          implementation of TIPmoney, where such license applies only to those
+          patent claims, both currently owned or controlled by TIPmoney LLC. and acquired
+          in the future, licensable by TIPmoney LLC. that are necessarily infringed by
+          this implementation of TIPmoney.  This grant does not include claims
+          that would be infringed only as a consequence of further modification of
+          this implementation.  If you or your agent or exclusive licensee
+          institute or order or agree to the institution of patent litigation
+          against any entity (including a cross-claim or counterclaim in a
+          lawsuit) alleging that this implementation of TIPmoney or any code
+          incorporated within this implementation of TIPmoney constitutes
+          direct or contributory patent infringement, or inducement of patent
+          infringement, then any patent rights granted to you under this License
+          for this implementation of TIPmoney shall terminate as of the date
+          such litigation is filed.</p>
+      </div>
+
+
+      <div class="doc-txt-medium">
+        <p>Last Updated June 3, 2017</p>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    /**
+     * `my-patents`
+     * Patents
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MyPatents extends Polymer.Element {
+      static get is() { return 'my-patents'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'my-patents'
+          }
+        };
+      }
+    }
+    window.customElements.define(MyPatents.is, MyPatents);
+  </script>
+</dom-module>

@@ -1,0 +1,63 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<dom-module id="my-contributors">
+  <template>
+    <style>
+       :host {
+        display: block;
+      }
+      li {
+        list-style: none;
+      }
+    </style>
+
+    <div class="doc-content-cont">
+      <!--<div class="doc-title-huge txt-c">Contributors</div>-->
+      <div class="doc-txt-medium">
+
+          <p>People who have agreed to one of the CLAs and can contribute patches.
+             The AUTHORS file lists the copyright holders; this file
+             lists people.  For example, TIPmoney LLC. employees are listed here
+             but not in AUTHORS, because TIPmoney LLC. holds the copyright.</p>
+
+          <P>Names should be added to this file as:</p>
+             Name | email address</p>
+
+          <p>
+            <ul>
+              <li>James Meirowsky <a href="mailto:james@theinvestorspodcast.com">james@theinvestorspodcast.com</a></li>
+              <li>Stig Brodersen <a href="mailto:stig@theinvestorspodcast.com">stig@theinvestorspodcast.com</a></li>
+              <li>Preston Pysh <a href="mailto:preston@theinvestorspodcast.com">preston@theinvestorspodcast.com</a></li></ul></p>
+      </div>
+
+
+      <div class="doc-txt-medium">
+        <p>Last Updated June 3, 2017</p>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    /**
+     * `my-contributors`
+     * Contributors
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MyContributors extends Polymer.Element {
+      static get is() { return 'my-contributors'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'my-contributors'
+          }
+        };
+      }
+    }
+    window.customElements.define(MyContributors.is, MyContributors);
+  </script>
+</dom-module>
