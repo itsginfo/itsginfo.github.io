@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
@@ -8,21 +10,22 @@
 
     <link rel="import" href="/bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="/bower_components/iron-demo-helpers/demo-snippet.html">
-    <link rel="import" href="my-tos.html">
+    <link rel="import" href="/src/my-tos.html">
+    <!--<link rel="import" href="/src/my-license.html">-->
 
-    </head><custom-style>
+    <custom-style>
       <style is="custom-style" include="demo-pages-shared-styles">
       </style>
     </custom-style>
-  
-  
+  </head>
+  <body>
     <div class="vertical-section-container centered">
       <h3>Terms Of Service</h3>
       <demo-snippet>
         <template>
-          Hello
+          <my-tos></my-tos>
         </template>
       </demo-snippet>
     </div>
-  
+  </body>
 </html>
